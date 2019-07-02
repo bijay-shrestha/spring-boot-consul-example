@@ -1,9 +1,0 @@
-spring:
-  application: {name: 'f1soft'}
-  cloud:
-    consul:
-      enabled: 'true'
-      host: localhost
-      port: 8500
-      discovery: {healthCheckInterval: 300s}
-      config: {fail-fast: true}

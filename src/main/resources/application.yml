@@ -1,9 +1,9 @@
 spring:
-  application: {name: 'f1soft'}
+  application: {name: 'spring-boot-consul-example'}
   cloud:
     consul:
       enabled: 'true'
       host: http://localhost
-      port: 8500
+      port: 8600
       discovery: {healthCheckInterval: 300s}
       config: {fail-fast: true}
